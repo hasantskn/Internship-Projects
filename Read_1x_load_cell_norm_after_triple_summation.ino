@@ -133,7 +133,7 @@ static boolean newDataReady = 0;
       if(k == readCycle-1){
       //Serial.print("Load_cell output val: ");
       //Serial.println(-i);
-      sum += i;
+      sum += -i;
       }
       
       newDataReady = 0;
@@ -213,6 +213,7 @@ static boolean newDataReady = 0;
       if(k == readCycle-1){
       //Serial.print("Load_cell output val_33: ");
       //Serial.println(i);
+      sum += i;
       }
       
       newDataReady = 0;
